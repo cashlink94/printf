@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	char buffer[BUFF_SIZE];
 
 	if (format == NULL)
-		return (-1);
+		return (0);
 
 	va_start(list, format);
 
